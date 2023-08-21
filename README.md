@@ -1,4 +1,4 @@
-# My implementation of Point Transformer
+# PyTorch implementation of Point Transformer
 
 Point Transformer is a self-attention neural network specifically designed for 3D point cloud learning.<br>
 - it was proposed by Zhao et al. in 2021 ([Paper](https://openaccess.thecvf.com/content/ICCV2021/html/Zhao_Point_Transformer_ICCV_2021_paper.html?ref=https://githubhelp.com)).

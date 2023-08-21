@@ -75,7 +75,7 @@ python train_partseg.py
 Visualization of object part segmentation results:
 
 <p align="center">
-  <img src="assets/visualization_partseg.png" width="80%"/>
+  <img src="assets/visualization_partseg.png" width="60%"/>
 </p>
 
 ## Acknowledgements and Motivation

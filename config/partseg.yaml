@@ -1,0 +1,9 @@
+batch_size: 16
+epoch: 200
+gpu: 0 # On my desktop, this value should be 0 to load GPU
+num_point: 1024
+normal: True
+
+hydra:
+  run:
+    dir: log/partseg/PointTransformerSeg38_SGD

@@ -1,0 +1,23 @@
+name: point_transformer_env 
+channels:
+  - defaults
+  - pytorch
+  - nvidia
+  - conda-forge
+  - fvcore 
+  - iopath 
+  - anaconda
+dependencies:
+  - anaconda::python=3.9.16
+  - pytorch::pytorch=1.13.1=py3.9_cuda11.6_cudnn8.3.2_0
+  - pytorch::torchvision=0.14.1=py39_cu116
+  - pytorch::pytorch-cuda=11.6=h867d48c_1
+  - conda-forge::cudatoolkit=11.6
+  - conda-forge::tqdm=4.64.1
+  - conda-forge::numpy=1.24.3 
+  - conda-forge::ninja=1.11.0
+  - anaconda::pip
+  - pip:
+    - hydra-core==1.1.0
+    - omegaconf==2.1.2
+    - einops==0.6.1

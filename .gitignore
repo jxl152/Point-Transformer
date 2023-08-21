@@ -1,0 +1,11 @@
+__pycache__/
+.idea/
+outputs/
+log/
+data/
+
+# lib
+build/
+dist/
+pointops.egg-info/
+*.so
